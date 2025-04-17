@@ -1,0 +1,1493 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- [Head] start -->
+  <head>
+    <title>Dashboard | NOPANEL</title>
+    <!-- [Meta] -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Able Pro is trending dashboard template made using Bootstrap 5 design framework. Able Pro is available in Bootstrap, React, CodeIgniter, Angular,  and .net Technologies.">
+    <meta name="keywords" content="Bootstrap admin template, Dashboard UI Kit, Dashboard Template, Backend Panel, react dashboard, angular dashboard">
+    <meta name="author" content="BlonkX">
+    <!-- Discord Meta -->
+    <meta property="og:title" content="NOPANEL">
+    <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+    <meta property="og:url" content="https://nopanel-723462.top/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NOPANEL">
+    <meta property="og:locale" content="tr_TR">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- [Favicon] icon -->
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon">
+ <!-- [Font] Family -->
+<link rel="stylesheet" href="../assets/fonts/inter/inter.css" id="main-font-link" />
+
+<!-- [Tabler Icons] https://tablericons.com -->
+<link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" />
+<!-- [Feather Icons] https://feathericons.com -->
+<link rel="stylesheet" href="../assets/fonts/feather.css" />
+<!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+<link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+<!-- [Material Icons] https://fonts.google.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/material.css" />
+<link rel="stylesheet" href="../assets/fonts/keenicons.css" />
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- [Template CSS Files] -->
+<link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" />
+<link rel="stylesheet" href="../assets/css/style-preset.css" />
+
+  </head>
+
+  <script>
+    setTimeout(function() {
+    console.clear();
+    console.log('%cSelam ne yaptıgını biliyorsun bence :)', 'color: #ff0000; font-size: 20px; font-weight: bold; text-shadow: 1px 1px 0px #000, 2px 2px 0px #000, 3px 3px 0px #000, 4px 4px 0px #000, 5px 5px 0px #000;');
+    console.log('%cFT. BlonkX', 'color: #ff0000; font-size: 20px; font-weight: bold; text-shadow: 1px 1px 0px #000, 2px 2px 0px #000, 3px 3px 0px #000, 4px 4px 0px #000, 5px 5px 0px #000;');
+    }, 2000);
+
+   
+  </script>
+  <!-- [Head] end -->
+  <!-- [Body] Start -->
+  <style>
+.watermark-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.watermark-pattern {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(-45deg);
+}
+
+.watermark-text {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.05);
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 100px;
+    user-select: none;
+}
+</style>
+
+<div class="watermark-container">
+    <div class="watermark-pattern">
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+                    <div class="watermark-text">nopanel.xyz</div>
+            </div>
+</div>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CN68DC42C"></script>
+<script>
+    document.getElementsByTagName('body')[0].setAttribute('data-pc-theme', "dark");
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9CN68DC42C');
+</script>
+
+
+
+  <body>
+    <!-- [ Pre-loader ] start -->
+<div class="loader-bg">
+  <div class="loader-track">
+    <div class="loader-fill"></div>
+  </div>
+</div>
+<!-- [ Pre-loader ] End -->
+ ﻿
+<nav class="pc-sidebar">
+  <div class="navbar-wrapper">
+  <div class="m-header">
+  <a href="/dashboard" class="b-brand text-primary">
+    <img src="https://i.imgur.com/LTdxHfS.png" alt="Logo" width="230px">
+  </a>
+</div>
+    <div class="navbar-content">
+      <div class="card pc-user-card">
+      <div class="card-body">
+    <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="../assets/images/user/avatar-5.jpg" class="img-fluid img-radius wid-50" alt="user">
+        </div>
+        <div class="flex-grow-1 ms-3 me-2">
+    <div class="d-flex align-items-center gap-1">
+        <h5 class="text-white mb-0">
+            Swift28        </h5>
+            </div>
+    <small>Ücretsiz Üye</small>
+        <div class="flex-shrink-1">
+        <small class="text-muted"><i class="fad fa-coins text-warning me-1" style="font-size: 10px;"></i>0 ₺ Bakiye</small>
+    </div>
+    </div>
+
+        <a class="btn btn-icon btn-link-secondary avtar-s" data-bs-toggle="collapse" href="#pc_sidebar_userlink">
+            <svg class="pc-icon">
+                <use xlink:href="#custom-sort-outline"></use>
+            </svg>
+        </a>
+    </div>
+
+
+          <div class="collapse pc-user-links" id="pc_sidebar_userlink">
+            <div class="pt-3">
+              <a href="/profile">
+                <i class="ti ti-user"></i>
+                <span>Hesabım</span>
+              </a>
+              <a href="/profile">
+                <i class="ti ti-settings"></i>
+                <span>Ayarlar</span>
+              </a>
+              <a href="#!" onclick="logout()">
+                <i class="ti ti-power"></i>
+                <span>Çıkış Yap</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="pc-navbar">
+      <li class="pc-item">
+          <a href="/dashboard" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-home"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Ana Sayfa</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="/profile" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-user"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Profilim</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="/userstats" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-story"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Kullanıcı Sıralaması</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="/refstats" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-fatrows"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Referans Sıralaması</span>
+          </a>
+        </li>
+        
+                        <li class="pc-item pc-caption">
+          <label>Market</label>
+          <i class="ti ti-chart-arcs"></i>
+        </li>
+        <li class="pc-item">
+          <a href="/shop" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-bag"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Market</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="/addbalance" class="pc-link">
+            <span class="pc-micon">
+              <i class="fad fa-wallet"></i>
+            </span>
+            <span class="pc-mtext">Bakiye Yükle <span class="badge bg-light-primary rounded-pill ms-1">Bonus Aktif</span></span>
+          </a>
+        </li>
+        <!-- <li class="pc-item">
+          <a href="/wheel" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-box-1"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Hediye Çarkı</span>
+          </a>
+        </li> -->
+
+     
+
+        <li class="pc-item pc-caption">
+          <label>Sorgu Cözümleri</label>
+          <i class="ti ti-dashboard"></i>
+        </li>
+        
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"
+            ><span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-user"></use>
+              </svg> </span
+            ><span class="pc-mtext">Mernis 2025</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span
+          ></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="/adsoyad">Ad Soyad Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/adsoyadv1">Ad Soyad Kapsamlı <span class="pc-arrow badge bg-light-primary rounded-pill ms-1">V1</span></a></li>
+            <!-- <li class="pc-item"><a class="pc-link" href="/serino">Seri No Sorgulama <span class="pc-arrow badge bg-light-primary rounded-pill ms-1"><i class="fad fa-star text-warning"></i></span></a></li> -->
+            <li class="pc-item"><a class="pc-link" href="/tc">TC Kimlik Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/tcpro">TC Pro Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/vergi">Vergi Dairesi Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/medeni">Medeni Hal Sorgulama</a></li>        
+          </ul>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"
+            ><span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-user-add"></use>
+              </svg> </span
+         ><span class="pc-mtext">Aile Cözümleri</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span
+          ></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="/aile">Aile Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/sulale">Sülale Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/annetarafi">Anne Tarafı Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/babatarafi">Baba Tarafı Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/evlilik">Eş Sorgulama</a></li>
+
+          </ul>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"
+            ><span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-call-calling"></use>
+              </svg>
+            </span
+            ><span class="pc-mtext">GSM Cözümleri</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span
+          ></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="/gsmtc">GSM TC Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/tcgsm">TC GSM Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link items-center" href="/gsm">GSM Sorgulama <span class="pc-arrow badge bg-light-primary rounded-pill ms-1">V2</span></a></li>
+          </ul>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-flag"></use>
+              </svg> </span>
+              <span class="pc-mtext">Adres Cözümleri</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span
+          ></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="/adres">Adres Sorgulama</a></li>
+            <!-- <li class="pc-item"><a class="pc-link" href="/adresv3">Güncel Adres<span class="pc-arrow badge bg-light-primary rounded-pill ms-1"><i class="fad fa-star text-warning"></i></span></a></li> -->
+            <li class="pc-item"><a class="pc-link" href="/bina">Bina Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/koy">Köy Mahalle Sorgulama</a></li>
+          </ul>
+        </li>
+      
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"
+            ><span class="pc-micon">
+            <i class="fad fa-id-card" style=" opacity: 0.7;"></i></span
+              
+            ><span class="pc-mtext">NVİ Cözümleri</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span
+          ></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="/kargo">Kargo Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/randevu">Randevu Sorgulama</a></li>
+          </ul>
+        </li>
+        
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"
+            ><span class="pc-micon">
+            <i class="fad fa-search" style=" opacity: 0.7;"></i></span
+              
+            ><span class="pc-mtext">Diğer Cözümler</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span
+          ></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="/iban">IBAN Sorgulama</a></li>
+          </ul>
+        </li>
+       
+        <!-- <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"
+            ><span class="pc-micon">
+              <i class="fad fa-crown text-warning" style=" opacity: 0.7;"></i> </span
+              
+            ><span class="pc-mtext">Premium Cözümler</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span
+          ></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="/adsoyadv2">Ad Soyad Pro <span class="pc-arrow badge bg-light-primary rounded-pill ms-1">V2</span></a></li>
+            <li class="pc-item"><a class="pc-link" href="/parsel">Parsel Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/tapu">Tapu Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/plaka">Plaka Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/plakapro">Plaka Pro Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/tcprov2">TC PRO V2 Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/meslek">Meslek Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/evesika">E Okul Vesika</a></li>
+            <li class="pc-item"><a class="pc-link" href="/adresv2">2024 Adres Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/rehber">Rehber Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/ilac">İlaç Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/rapor">Rapor Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/universite">Üniversite Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/guncelaile">Eski Eş Sorgulama</a></li>
+            <li class="pc-item"><a class="pc-link" href="/guncelaile">Güncel Aile Sorgulama</a></li>
+
+          </ul>
+        </li> -->
+       
+        <li class="pc-item pc-hasmenu">
+          <a href="#!" class="pc-link"
+            ><span class="pc-micon">
+            <i class="fad fa-crown text-warning" style=" opacity: 0.7;"></i>
+
+               </span
+              ><span class="pc-mtext">Premium Cözümler</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span
+              ></a>
+              <ul class="pc-submenu">
+    <!-- Kişi Sorgulama -->
+    <li class="pc-item pc-hasmenu">
+      <a href="#!" class="pc-link">
+        Kişi Sorgulama <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
+      </a>
+      <ul class="pc-submenu">
+        <li class="pc-item"><a class="pc-link" href="/adsoyadv2">Ad Soyad Pro V2</a></li>
+        <li class="pc-item"><a class="pc-link" href="/tcprov2">TC PRO V2 Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/adresv2">Adres Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/meslek">Meslek Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/rehber">Rehber Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/tcprov2">Seri No Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/ehliyet">Ehliyet Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/sms">SMS Bomber</a></li>
+      </ul>
+    </li>
+    <!-- Araç Sorgulama -->
+    <li class="pc-item pc-hasmenu">
+      <a href="#!" class="pc-link">
+        Araç Sorgulama <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
+      </a>
+      <ul class="pc-submenu">
+        <li class="pc-item"><a class="pc-link" href="/plaka">Plaka Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/plakatc">TC Plaka Sorgulama</a></li>
+      </ul>
+    </li>
+    <!-- Mülk Sorgulama -->
+    <li class="pc-item pc-hasmenu">
+      <a href="#!" class="pc-link">
+        Tapu Sorgulama <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
+      </a>
+      <ul class="pc-submenu">
+        <li class="pc-item"><a class="pc-link" href="/parsel">Parsel Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/tapu">Tapu Sorgulama</a></li>
+      </ul>
+    </li>
+    <!-- Sağlık Sorgulama -->
+    <li class="pc-item pc-hasmenu">
+      <a href="#!" class="pc-link">
+        Sağlık Sorgulama <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
+      </a>
+      <ul class="pc-submenu">
+        <li class="pc-item"><a class="pc-link" href="/asi">Aşı Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/ilac">İlaç Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/rapor">Rapor Sorgulama</a></li>
+      </ul>
+    </li>
+    <!-- Aile Sorgulama -->
+    <li class="pc-item pc-hasmenu">
+      <a href="#!" class="pc-link">
+        Aile Sorgulama <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
+      </a>
+      <ul class="pc-submenu">
+        <li class="pc-item"><a class="pc-link" href="/guncelaile">Eski Eş Sorgulama</a></li>
+        <li class="pc-item"><a class="pc-link" href="/guncelaile">Aile Sorgulama</a></li>
+      </ul>
+    </li>
+    <!-- Okul Sorgulama -->
+    <li class="pc-item pc-hasmenu">
+      <a href="#!" class="pc-link">
+        Okul Sorgulama <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
+      </a>
+      <ul class="pc-submenu">
+        <li class="pc-item"><a class="pc-link" href="/lgs">LGS Sorgulama</a></li>
+        <!-- <li class="pc-item"><a class="pc-link" href="/evesika">E Okul Vesika</a></li> -->
+        <li class="pc-item"><a class="pc-link" href="/gecmisokul">Sınıf Geçmişi</a></li>
+        <li class="pc-item"><a class="pc-link" href="/universite">Üniversite Sorgulama</a></li>
+      </ul>
+    </li>
+    <li class="pc-item pc-hasmenu">
+      <a href="#!" class="pc-link">
+        PDF Cözümleri <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
+      </a>
+      <ul class="pc-submenu">
+        <li class="pc-item"><a class="pc-link" href="/adrespdf">Adres PDF</a></li>
+        <li class="pc-item"><a class="pc-link" href="/sicilpdf">Adli Sicil PDF</a></li>
+      </ul>
+    </li>
+  </ul>
+        </li>
+        <li class="pc-item pc-caption">
+          <label>Destek Sistemi</label>
+          <i class="ti ti-dashboard"></i>
+        </li>
+        <li class="pc-item">
+          <a href="/tickets" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-24-support"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Destek Sistemi</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="https://t.me/nopanels" class="pc-link">
+            <span class="pc-micon">
+            <i class="fab fa-telegram-plane"></i>
+            </span>
+            <span class="pc-mtext">Telegram</span>
+          </a>
+        </li>
+
+   
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- [ Sidebar Menu ] end -->
+
+<script>
+function logout() {
+  $.ajax({
+    url: '/authorization',
+    type: 'POST',
+    data: {
+      action: "logout"
+    },
+   dataType: 'json',
+    success: function (data) {
+      if (data.success) {
+        window.location.href = "/login";
+      } else {
+        alert(data.message);
+      }
+    }
+  });
+}
+
+
+</script>  <!-- [ Header Topbar ] start -->
+ 
+ <header class="pc-header">
+  <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
+<div class="me-auto pc-mob-drp">
+  <ul class="list-unstyled">
+    <!-- ======= Menu collapse Icon ===== -->
+    <li class="pc-h-item pc-sidebar-collapse">
+      <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+        <i class="ti ti-menu-2"></i>
+      </a>
+    </li>
+    <li class="pc-h-item pc-sidebar-popup">
+      <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+        <i class="ti ti-menu-2"></i>
+      </a>
+    </li>
+
+    <!-- ======= Search Icon ===== -->
+  
+  </ul>
+</div>
+</div>
+<!-- [Mobile Media Block end] -->
+<div class="ms-auto">
+  <ul class="list-unstyled">
+    
+
+  <li class="dropdown pc-h-item">
+    
+    <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+    >
+        <svg class="pc-icon">
+            <use xlink:href="#custom-notification"></use>
+        </svg>
+        <span class="badge bg-success pc-h-badge">1</span>
+    </a>
+    <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+            <h5 class="m-0">Bildirimler</h5>
+            <a href="#!" class="btn btn-link btn-sm" onclick="readAllNotifications()">Hepsini Oku</a>
+        </div>
+        <div class="dropdown-body text-wrap header-notification-scroll position-relative" style="max-height: calc(100vh - 215px)">
+                                <p class="text-span">Bugün</p>
+                    <div class="notification-group">
+                                    <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <svg class="pc-icon text-primary">
+                                    <use xlink:href="#custom-logout-1-outline"></use>
+                                </svg>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <span class="float-end text-sm text-muted">24 saniye önce</span>
+                                <h5 class="text-body mb-2">Login</h5>
+                                <p class="mb-0">Merhaba, Swift28 hoşgeldin. Giriş yaptın. Giriş yaptığın tarih: 2025-04-18 01:03:43</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                        </div>
+                    </div>
+        <div class="dropdown-footer d-grid">
+            <a href="/notifications" class="btn btn-primary">Tüm Bildirimler</a>
+          </div>
+    </div>
+</li>
+
+    <li class="dropdown pc-h-item">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <svg class="pc-icon">
+          <use xlink:href="#custom-sun-1"></use>
+        </svg>
+      </a>
+      <div class="dropdown-menu dropdown-menu-end pc-h-dropdown">
+        <a href="#!" class="dropdown-item" onclick="layout_change('dark')">
+          <svg class="pc-icon">
+            <use xlink:href="#custom-moon"></use>
+          </svg>
+          <span>Dark</span>
+        </a>
+        <a href="#!" class="dropdown-item" onclick="layout_change('light')">
+          <svg class="pc-icon">
+            <use xlink:href="#custom-sun-1"></use>
+          </svg>
+          <span>Light</span>
+        </a>
+        <a href="#!" class="dropdown-item" onclick="layout_change_default()">
+          <svg class="pc-icon">
+            <use xlink:href="#custom-setting-2"></use>
+          </svg>
+          <span>Default</span>
+        </a>
+      </div>
+    </li>
+    
+   
+    <li class="dropdown pc-h-item header-user-profile">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        data-bs-auto-close="outside"
+        aria-expanded="false"
+      >
+      <img src="../assets/images/user/avatar-5.jpg" class="img-fluid img-radius wid-40" alt="user">
+      </a>
+      <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+          <h5 class="m-0">Profile</h5>
+        </div>
+        <div class="dropdown-body">
+          <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
+            <div class="d-flex mb-1">
+              <div class="flex-shrink-0">
+              <img src="../assets/images/user/avatar-5.jpg" class="img-fluid img-radius wid-40" alt="user">
+
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <h6 class="mb-1">Swift28</h6>
+                <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="244a41484d1210161015644349454d480a474b49">[email&#160;protected]</a></span>
+              </div>
+            </div>
+            <hr class="border-secondary border-opacity-50" />
+            <p class="text-span">Manage</p>
+            <a href="/profile" class="dropdown-item">
+              <span>
+                <svg class="pc-icon text-muted me-2">
+                  <use xlink:href="#custom-setting-outline"></use>
+                </svg>
+                <span>Ayarlar</span>
+              </span>
+            </a>
+            <a href="/profile" class="dropdown-item">
+              <span>
+                <svg class="pc-icon text-muted me-2">
+                  <use xlink:href="#custom-share-bold"></use>
+                </svg>
+                <span>Referanslarım</span>
+              </span>
+            </a>
+            <hr class="border-secondary border-opacity-50" />
+            <div class="d-grid mb-0">
+              <button class="btn btn-primary" onclick="logout()">
+                <svg class="pc-icon me-2">
+                  <use xlink:href="#custom-logout-1-outline"></use></svg>
+                 Cikis Yap
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+ </div>
+</header>
+
+<div class="col-xl-4 col-md-6">
+    <div id="reklammodal" class="modal fade" tabindex="-1" role="dialog"
+        aria-labelledby="reklammodal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                                        <h5 class="modal-title" id="reklammodal">📢 Telegram Kanalımıza Katılın</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closemodal('https://t.me/nopanels')"></button>
+                </div>
+                <div class="modal-body w-100">
+                  
+                       <span> <span>Telegram kanalımıza katılarak bedava <span class="text-primary text-bold">Premium</span> kazanabilirsiniz.</span></span>
+                   
+
+                </div>
+                <div class="modal-footer">
+                    <!-- <a href="javascript:void(0);" onclick="closemodal()" class="btn btn-danger">Kapat</a> -->
+                    <button type="button" class="btn btn-primary" onclick="opennewtab('https://t.me/nopanels')">Telegram Kanalımıza Katıl</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays*60*1000));
+        var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/;SameSite=Lax;Secure";
+    }
+
+//     var closeClicked = false;
+
+// function handleClose() {
+//     if (!closeClicked) {
+//         closeClicked = true;
+//         $('#reklammodal').modal('hide');
+//         setTimeout(function() {
+//             setCookie('modal_closed', 'true', 15);
+//             if (isDesktop()) {
+//                 var newWindow = window.open("https://ui.colidy.com/", "_blank", "width=1,height=1,left=10000,top=10000");
+//                 if (newWindow) {
+//                     newWindow.blur();
+//                     window.focus();
+//                 }
+//             } else {
+//                 window.open("https://ui.colidy.com/", "_blank");
+//             }
+//         }, 500);
+//         return false;
+//     } else {
+//         $('#reklammodal').modal('hide');
+//         setCookie('modal_closed', 'true', 15);
+//     }
+// }
+
+// function isDesktop() {
+//     var userAgent = navigator.userAgent;
+//     return !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+// }
+
+
+
+
+//     function opennewtab(url) {
+//     window.open(url, '_blank');
+//     $('#reklammodal').modal('hide');
+//     setCookie('modal_closed', 'true', 10); // Modal kapandığında çerez ayarlanır
+//   }
+
+
+    function closemodal(url){
+        $('#reklammodal').modal('hide');
+        setCookie('modal_closed', 'true', 10);
+        window.open(url, '_blank');
+    }
+
+    function opennewtab(url){
+        $('#reklammodal').modal('hide');
+        setCookie('modal_closed', 'true', 10);
+        window.open(url, '_blank');
+    }
+
+    $(document).ready(function(){
+        if('true' !== 'false') {
+            $('#reklammodal').modal('show');
+        }
+    });
+
+    function readNotification(id) {
+        $.ajax({
+            url: '/authorization',
+            type: 'POST',
+            data: {
+                id: id,
+                action: 'readNotification'
+            },
+            dataType: 'json',
+            success: function(response) {
+              if (response.success) {
+                location.reload();
+              }
+            }
+        });
+    }
+
+    function readAllNotifications() {
+        $.ajax({
+            url: '/authorization',
+            type: 'POST',
+            data: {
+                action: 'readAllNotifications'
+            },
+            dataType: 'json',
+            success: function(response) {
+              if (response.success) {
+                location.reload();
+              }
+            }
+        });
+    }
+
+    function deleteNotification(id) {
+        $.ajax({
+            url: '/authorization',
+            type: 'POST',
+            data: {
+                id: id,
+                action: 'deleteNotification'
+            },
+            dataType: 'json',
+            success: function(response) {
+              if (response.success) {
+                location.reload();
+              }
+            }
+        });
+    }
+
+    function deleteAllNotifications() {
+        $.ajax({
+            url: '/authorization',
+            type: 'POST',
+            data: {
+                action: 'deleteAllNotifications'
+            },
+            dataType: 'json',
+            success: function(response) {
+              if (response.success) {
+                location.reload();
+              }
+            }
+        });
+    }
+
+
+</script>
+
+  
+<div id="openalert" style="display: none;">
+        <div aria-live="polite" aria-atomic="true" class="bg-dark position-relative bd-example-toasts">
+        <div class="toast-container position-fixed top-0 end-0 p-3">
+            <div class="toast show fade">
+            <div class="toast-header">
+                <strong class="me-auto">NOPANEL</strong>
+                <small>18.04.2025 01:04:07</small>
+            </div>
+            <div class="toast-body" id="toastMessage">
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    <!-- [ Main Content ] start -->
+    <div class="pc-container">
+      <div class="pc-content">
+      
+        <!-- [ Main Content ] start -->
+         <!-- Reklam Alanı -->
+          
+          <div class="row mb-3">
+            <div class="col-md-6" onclick="window.open('https://1wisfj.top/?p=6gli', '_blank')">
+              <img src="assets/images/7slots.gif" class="img-fluid" alt="Reklam Alanı" width="1000" height="150">
+            </div>
+            
+            <div class="col-md-6" onclick="window.open('https://1wisfj.top/?p=6gli', '_blank')">
+              <img src="assets/images/Media14097__tk1200-x-100.gif" class="img-fluid" alt="Reklam Alanı" width="1000" height="150">
+            </div>
+          </div>
+          
+
+        <div class="row">
+          <div class="col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="mb-2 f-w-400 text-muted">Toplam Kullanıcı</h6>
+                <h4 class="mb-3"
+                  >95741 <span class="badge bg-light-primary border border-primary"><i class="ti ti-trending-up"></i> 0%</span></h4
+                >
+                <p class="mb-0 text-muted text-sm">Bu gün <span class="text-primary">24</span> kullanıcı kayıt oldu </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="mb-2 f-w-400 text-muted">Premium Kullanıcı</h6>
+                <h4 class="mb-3"
+                  >585 <span class="badge bg-light-primary border border-primary"><i class="ti ti-trending-up"></i> 1%</span></h4
+                >
+                <p class="mb-0 text-muted text-sm">Sistemde <span class="text-primary">585</span> premium kullanıcı var </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="mb-2 f-w-400 text-muted">Aktif Kullanıcı</h6>
+                <h4 class="mb-3"
+                  >84 <span class="badge bg-light-primary border border-primary"><i class="ti ti-trending-up"></i> 0%</span></h4
+                >
+                <p class="mb-0 text-muted text-sm">Bu gün <span class="text-primary">355</span> kullanıcı aktif oldu </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="mb-2 f-w-400 text-muted">Sorgu Sayısı</h6>
+                <h4 class="mb-3"
+                  >4718155 <span class="badge bg-light-primary border border-primary"><i class="ti ti-trending-up"></i> 100%</span></h4
+
+                >
+                <p class="mb-0 text-muted text-sm">Sistemde <span class="text-primary">4718155</span> adet sorgu yapıldı </p>
+              </div>
+            </div>
+          </div>
+                    
+          
+<div class="col-xl-12">
+    <div class="card">
+        <div class="card-header">
+            <h5>Referans Kazançlarınız</h5>
+            <span class="d-block m-t-5">Referans linkiniz ile kazandığınız miktarlar</span>
+        </div>
+        <div class="card-body">
+            <div class="w-100 d-flex justify-content-between">
+                <div class="input-group mb-3">
+                                        <input type="text" class="form-control" value="https://nopanel-723462.top/register?referance=RW-07VzZI" id="referanceLink" readonly>
+                    <button class="btn btn-primary" onclick="copyReferanceLink()">Kopyala</button>
+                </div>
+            </div>
+            
+            <div class="d-flex justify-content-between mx-3 mt-3">
+                <div class="mb-3 text-center">
+                    <h4 class="mb-0 text-center">0</h4>
+                    <span class="text-muted text-center">Toplam Referans</span>
+                    <p class="text-muted text-sm text-center">Referans linkiniz ile <span class="text-primary">0</span> kişi üye oldu</p>
+                </div>
+                <div class="mb-3 text-center">
+                    <h4 class="mb-0">665</h4>
+                    <span class="text-muted text-sm">Referans Sıranız</span>
+                    <p class="text-muted text-sm">Sistemdeki referans sıralamanız <span class="text-primary">664</span> kişi arasında <span class="text-primary">665</span>. sıradasınız</p>
+                </div>
+                <div class="mb-3 text-center">
+                    <h4 class="mb-0">0.00₺</h4>
+                    <span class="text-muted text-sm">Referans Kazancınız</span>
+                    <p class="text-muted text-sm">Referanslarınızdan <span class="text-primary">0.00₺</span> kazandınız</p>
+                </div>
+            </div>
+            <h6 class="mb-3 text-center text-muted text-sm">Referans kazancınızı çekmek için <a href="/profile">profilinizden</a> çekme talebi oluşturabilirsiniz.</h6>
+            <p class="text-muted text-sm">Referans seviye ilerlemesi</p>
+            <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" 
+                     style="width: 0%" 
+                     aria-valuenow="0" 
+                     aria-valuemin="0" 
+                     aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function copyReferanceLink() {
+    const referanceLink = document.getElementById('referanceLink');
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(referanceLink.value)
+            .then(() => {
+                alert('Referans linkiniz kopyalandı!');
+            })
+            .catch(() => {
+                // Fallback to old method
+                referanceLink.select();
+                document.execCommand('copy');
+                alert('Referans linkiniz kopyalandı!');
+            });
+    } else {
+        // Fallback for older browsers
+        referanceLink.select();
+        document.execCommand('copy');
+        alert('Referans linkiniz kopyalandı!');
+    }
+}
+</script>
+   
+
+
+          <div class="col-xl-12">
+            <div class="card">
+              <div class="card-header">
+                <h5>Duyurular</h5>
+                <span class="d-block m-t-5">Sistemdeki güncel duyurular</span>
+              </div>
+              <div class="card-body table-border-style">
+                <div class="table-responsive table-hover border-0">
+                  <table class="table table-xs" id="pc-dt-simplex">
+                    <thead>
+                      <tr>
+                        <th>Duyuru Paylaşan</th>
+                        <th>Duyuru İçeriği</th>
+                        <th data-type="date" data-format="YYYY/DD/MM">Duyuru Tarihi</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                            <td>BlonkX</td>
+                            <td>Telegram kanalımızda ücretsiz bakiye dağıtıyoruz.</td>
+                            <td>2024-06-05 15:17:31</td>
+                          </tr>                     
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-12">
+            <div class="card">
+            <div class="d-flex align-items-center justify-content-between ">
+            <div class="card-header">
+                    <h5 class="mb-0">NOPANEL Guard</h5>
+                    <span class="d-block">Son işlemler</span>
+                  </div>
+                  <ul class="nav nav-tabs analytics-tab small justify-content-end" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="analytics-tab-1"
+                      data-bs-toggle="tab"
+                      data-bs-target="#analytics-tab-1-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="analytics-tab-1-pane"
+                      aria-selected="true"
+                      >Giriş Yapanlar</button
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="analytics-tab-2"
+                      data-bs-toggle="tab"
+                      data-bs-target="#analytics-tab-2-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="analytics-tab-2-pane"
+                      aria-selected="false"
+                      >Hatalı Giriş</button
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="pb-0">
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="analytics-tab-1-pane"
+                  role="tabpanel"
+                  aria-labelledby="analytics-tab-1"
+                  tabindex="0"
+                >
+                  <ul class="list-group list-group-flush border-top">
+                                      </ul>
+                </div>
+                <div class="tab-pane fade" id="analytics-tab-2-pane" role="tabpanel" aria-labelledby="analytics-tab-2" tabindex="0">
+                  <ul class="list-group list-group-flush border-top">
+                                       
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+          </div> -->
+          
+          <style>
+        .text-danger-blur::before,
+        .text-primary-blur::before,
+        .text-muted-blur::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            width: 100%;
+            filter: blur(7px) brightness(0.7) saturate(0.8) contrast(1.2);
+        }
+
+        .text-danger-blur::before {
+            background-color: rgba(220, 53, 69, 0.3);
+        }
+
+        .text-primary-blur::before {
+            background-color: rgba(0, 123, 255, 0.2);
+        }
+
+        .text-muted-blur::before {
+            background-color: rgba(108, 117, 125, 0.2);
+        }
+
+        .blur-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .text-danger {
+            color: #dc3545;
+        }
+
+        .text-primary {
+            color: #007bff;
+        }
+
+        .text-muted {
+            color: #6c757d;
+        }
+
+        .font-semibold {
+            font-weight: 600;
+        }
+    </style>
+
+          </style>
+          <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                              <h5>Aktif Kullanıcılar (84)</h5>
+                <span class="d-block m-t-5">Sistemdeki aktif kullanıcılar</span>
+                <div class="form-check form-switch mt-2">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked"  onchange="invisName()">
+                    <label class="form-check-label" for="flexSwitchCheckChecked">İsminizi Gizleyin<small class="text-muted"> (İsminizi kimse görmeyecek)</small></label>
+                </div>
+            </div>
+            <div class="card-body">
+                <span class="blur-container text-muted text-muted-blur font-semibold">Swift28</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Miracelchavo</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Halitcan6565</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Yunus4</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Biner_bilgin</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Deckthebroke</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Hzkel1</span>, <span class="blur-container text-muted text-muted-blur font-semibold">1918</span>, <span class="blur-container text-primary text-primary-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Aysunotfound</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Sarpterim</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Frank5567</span>, <span class="blur-container text-primary text-primary-blur font-semibold">Miracc911</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Asilsss</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Swendrox</span>, <span class="blur-container text-primary text-primary-blur font-semibold">Joker1447</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Bah199</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Dana02</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Serserimoruq</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Saat47</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Logo58</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Levet</span>, <span class="blur-container text-muted text-muted-blur font-semibold">S4mtw</span>, <span class="blur-container text-primary text-primary-blur font-semibold">Kestanemi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Sinanbaba</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Zeus31</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Gaddar123</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Maral2323</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Nakoulmallof</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-primary text-primary-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Hukuk1889</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Mali61</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Taylan72</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Yasemin01</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Sdafg</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Eksorsest</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Seyo</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Dgn.ypm</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Brlnkava</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Ates00</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Sebaydin</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Birsen</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Emreakdere1</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Woccobleann</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Samet_623</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Muratking</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Ali4224</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Metehan1</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Adminx08</span>, <span class="blur-container text-muted text-muted-blur font-semibold">GHAMDB555</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Berkay1142</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Kralbey7272</span>, <span class="blur-container text-primary text-primary-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Ismet1903</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Alpss</span>, <span class="blur-container text-primary text-primary-blur font-semibold">Asdfgh1</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Holaost29</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Kafur</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Jesko</span>, <span class="blur-container text-primary text-primary-blur font-semibold">Ulasgyo</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Dido</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Canheryerde</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Muhammedkbg</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Rossocan</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">İsim Gizlendi</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Alikcbyy</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Ard1234</span>, <span class="blur-container text-muted text-muted-blur font-semibold">Rollplay</span>            </div>
+        </div>
+    </div>
+              </div>
+               <!-- <div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+                    <h5>Son 24 Saat İçinde Aktif Kullanıcılar ()</h5>
+            <span class="d-block m-t-5">Son 24 saat içinde aktif olan kullanıcılar</span>
+            <span><span class="text-danger font-semibold text-danger-blur blur-container">Kurucu</span> - <span class="text-success font-semibold text-success-blur blur-container">Bayi</span> - <span class="text-primary font-semibold text-primary-blur blur-container">Premium Üye</span> - <span class=" blur-container text-muted font-semibold text-muted-blur">Üye</span></span>
+
+        </div>
+        <div class="card-body">
+                    </div>
+    </div>
+</div>  -->
+          </div>
+        <!-- [ Main Content ] end -->
+      </div>
+    </div>
+    <!-- [ Main Content ] end -->
+    
+    
+<footer class="pc-footer">
+      <div class="footer-wrapper container-fluid">
+      <div class="row mt-2 mb-2">
+    <div class="col-md-6"><a href="https://1wisfj.top/?p=6gli"><img src="assets/images/7slots.gif" class="img-fluid" alt="Reklam Alanı" width="1000" height="150"></a></div><div class="col-md-6"><a href="https://1wisfj.top/?p=6gli"><img src="assets/images/Media14097__tk1200-x-100.gif" class="img-fluid" alt="Reklam Alanı" width="1000" height="150"></a></div></div>
+        <div class="row">
+          <div class="col my-1">
+            <p class="m-0"
+              >NOPANEL <i class="fas fa-heart text-danger"></i> by Root</a></p
+            >
+          </div>
+          <div class="col-auto my-1">
+            <ul class="list-inline footer-link mb-0">
+              <li class="list-inline-item"><a href="/dashboard">Ana Sayfa</a></li>
+              <li class="list-inline-item"><a href="https://t.me/nopanels" target="_blank">Discord</a></li>
+              <li class="list-inline-item"><a href="https://t.me/nopanels" target="_blank">Telegram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/plugins/simple-datatables.js"></script>
+    <script>
+      const dataTable = new simpleDatatables.DataTable('#pc-dt-simple');
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+<script>
+      document.addEventListener("DOMContentLoaded", function () {
+    function getCurrentDateTime() {
+        var now = new Date();
+        return now.getFullYear() + "_" + (now.getMonth() + 1) + "_" + now.getDate() + "_" + now.getHours() + "_" + now.getMinutes() + "_" + now.getSeconds();
+    }
+
+    function downloadAllTables(format) {
+        var tables = document.querySelectorAll("table");
+        switch (format) {
+            case 'pdf':
+                downloadAllTablesPDF(tables);
+                break;
+            case 'excel':
+                downloadAllTablesExcel(tables);
+                break;
+            case 'word':
+                downloadAllTablesWord(tables);
+                break;
+            case 'txt':
+                downloadAllTablesTXT(tables);
+                break;
+        }
+    }
+
+    function downloadAllTablesPDF(tables) {
+        const { jsPDF } = window.jspdf;
+        var doc = new jsPDF();
+        var col = 20;
+        var row = 20;
+
+        tables.forEach(function(table, index) {
+            var headers = [];
+            var rows = table.getElementsByTagName("tr");
+
+            // Get headers
+            table.querySelectorAll("thead tr th").forEach(function(th) {
+                headers.push(th.innerText);
+            });
+
+            // Add headers
+            headers.forEach(function(header) {
+                doc.text(header, col, row);
+                col += 30;
+            });
+
+            col = 20;
+            row += 10;
+
+            // Add data
+            for (var i = 0; i < rows.length; i++) {
+                var cells = rows[i].getElementsByTagName("td");
+                for (var j = 0; j < cells.length; j++) {
+                    doc.text(cells[j].innerText, col, row);
+                    col += 30;
+                }
+                col = 20;
+                row += 10;
+            }
+
+            row += 10; // Add some space between tables
+        });
+
+        var filename = 'all_tables_' + getCurrentDateTime() + '.pdf';
+        doc.save(filename);
+    }
+
+    function downloadAllTablesExcel(tables) {
+        var wb = XLSX.utils.book_new();
+
+        tables.forEach(function(table, index) {
+            var ws = XLSX.utils.table_to_sheet(table);
+            XLSX.utils.book_append_sheet(wb, ws, 'Table ' + (index + 1));
+        });
+
+        var filename = 'all_tables_' + getCurrentDateTime() + '.xlsx';
+        XLSX.writeFile(wb, filename);
+    }
+
+    function downloadAllTablesWord(tables) {
+        var text = '';
+
+        tables.forEach(function(table, index) {
+            var headers = [];
+            var rows = table.getElementsByTagName("tr");
+
+            // Get headers
+            table.querySelectorAll("thead tr th").forEach(function(th) {
+                headers.push(th.innerText);
+            });
+
+            // Add headers
+            text += headers.join("\t") + '\n';
+
+            // Add data
+            for (var i = 0; i < rows.length; i++) {
+                var cells = rows[i].getElementsByTagName("td");
+                for (var j = 0; j < cells.length; j++) {
+                    text += cells[j].innerText + '\t';
+                }
+                text += '\n';
+            }
+
+            text += '\n'; // Add some space between tables
+        });
+
+        var blob = new Blob([text], {
+            type: "application/msword"
+        });
+
+        var filename = 'all_tables_' + getCurrentDateTime() + '.doc';
+        saveAs(blob, filename);
+    }
+
+    function downloadAllTablesTXT(tables) {
+        var text = '';
+
+        tables.forEach(function(table, index) {
+            var headers = [];
+            var rows = table.getElementsByTagName("tr");
+
+            // Get headers
+            table.querySelectorAll("thead tr th").forEach(function(th) {
+                headers.push(th.innerText);
+            });
+
+            // Add headers
+            text += headers.join("\t") + '\n';
+
+            // Add data
+            for (var i = 0; i < rows.length; i++) {
+                var cells = rows[i].getElementsByTagName("td");
+                for (var j = 0; j < cells.length; j++) {
+                    text += cells[j].innerText + '\t';
+                }
+                text += '\n';
+            }
+
+            text += '\n'; // Add some space between tables
+        });
+
+        var blob = new Blob([text], {
+            type: "text/plain;charset=utf-8"
+        });
+
+        var filename = 'all_tables_' + getCurrentDateTime() + '.txt';
+        saveAs(blob, filename);
+    }
+
+    // Bind dropdown items to the download function
+    document.querySelectorAll('.dropdown-item').forEach(function(item) {
+        item.addEventListener('click', function() {
+            var format = this.getAttribute('data-format');
+            downloadAllTables(format);
+        });
+    });
+});
+
+(function() {
+    let devtoolsOpen = false;
+
+    function detectDevTools() {
+        const start = new Date();
+        debugger;
+        const end = new Date();
+
+        if (end - start > 100) {
+            devtoolsOpen = true;
+            handleDevTools();
+        }
+    }
+
+    function handleDevTools() {
+        console.clear();
+        console.log("%cWarning: DevTools Detected!", "color: red; font-size: 20px; font-weight: bold;");
+        window.location.href = "https://www.google.com.tr/";
+    }
+
+    function detectConsoleLog() {
+        const element = new Image();
+        element.__defineGetter__('id', function() {
+            devtoolsOpen = true;
+            handleDevTools();
+        });
+        console.log("%c", element);
+    }
+
+    function monitorDevTools() {
+        detectDevTools();
+        detectConsoleLog();
+    }
+
+    setInterval(monitorDevTools, 1);
+})();
+  </script>
+
+
+ 
+
+    <!-- [Page Specific JS] start -->
+    <script src="../assets/js/plugins/apexcharts.min.js"></script>
+    <script src="../assets/js/pages/dashboard-default.js"></script>
+    <!-- [Page Specific JS] end -->
+    <!-- Required Js -->
+    <script src="../assets/js/plugins/popper.min.js"></script>
+    <script src="../assets/js/plugins/simplebar.min.js"></script>
+    <script src="../assets/js/plugins/bootstrap.min.js"></script>
+    <script src="../assets/js/fonts/custom-font.js"></script>
+    <script src="../assets/js/config.js"></script>
+    <script src="../assets/js/pcoded.js"></script>
+    <script src="../assets/js/plugins/feather.min.js"></script>
+
+    <script>
+      function invisName() {
+        var invisName = document.getElementById("flexSwitchCheckChecked").checked ? 1 : 0;
+        
+        $.ajax({
+            type: "POST",
+            url: "/authorization",
+            data: {
+                action: "invisName",
+                invisName: invisName
+            },
+            dataType: "json",
+            success: function (response) {
+                if (response.success) {
+                    document.location.reload();
+                } else {
+                  document.location.reload();
+                }
+            }
+        });
+    }
+
+    function copyReferanceLink() {
+        var copyText = document.getElementById("referanceLink");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        alert("Referans linkiniz kopyalandı: " + copyText.value);
+    }
+
+    </script>
+    
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"931f37589e6e7ddd","version":"2025.4.0-1-g37f21b1","r":1,"token":"d1e5335359744facb9fad980c8a903e5","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+  <!-- [Body] end -->
+</html>
